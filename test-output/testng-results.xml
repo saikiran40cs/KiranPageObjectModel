@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19253" started-at="2017-06-12T11:27:20Z" finished-at="2017-06-12T11:27:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19253" started-at="2017-06-12T11:27:20Z" finished-at="2017-06-12T11:27:39Z">
+      <class name="testCases.TC003ExecuteWithPageFactory">
+        <test-method status="PASS" signature="testHomePageAppearCorrect()[pri:0, instance:testCases.TC003ExecuteWithPageFactory@68c4039c]" name="testHomePageAppearCorrect" duration-ms="855" started-at="2017-06-12T16:57:38Z" finished-at="2017-06-12T16:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageAppearCorrect -->
+      </class> <!-- testCases.TC003ExecuteWithPageFactory -->
+      <class name="testCases.TC001ExecuteWithOutPOM">
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:testCases.TC001ExecuteWithOutPOM@ae45eb6]" name="testLoginPage" duration-ms="6088" started-at="2017-06-12T16:57:31Z" finished-at="2017-06-12T16:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+      </class> <!-- testCases.TC001ExecuteWithOutPOM -->
+      <class name="testCases.TC002ExecuteWithPOM">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC002ExecuteWithPOM@3532ec19]" name="setup" is-config="true" duration-ms="6336" started-at="2017-06-12T16:57:20Z" finished-at="2017-06-12T16:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC003ExecuteWithPageFactory@68c4039c]" name="setup" is-config="true" duration-ms="5037" started-at="2017-06-12T16:57:26Z" finished-at="2017-06-12T16:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:testCases.TC002ExecuteWithPOM@3532ec19]" name="testLoginPage" duration-ms="890" started-at="2017-06-12T16:57:37Z" finished-at="2017-06-12T16:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.TC002ExecuteWithPOM@3532ec19]" name="close" is-config="true" duration-ms="16" started-at="2017-06-12T16:57:39Z" finished-at="2017-06-12T16:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.TC003ExecuteWithPageFactory@68c4039c]" name="close" is-config="true" duration-ms="14" started-at="2017-06-12T16:57:39Z" finished-at="2017-06-12T16:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.TC002ExecuteWithPOM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
