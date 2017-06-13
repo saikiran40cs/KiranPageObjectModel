@@ -19,6 +19,7 @@ public class LoginPage {
 
 	@FindBy(name = "login-form:login")
 	WebElement loginButton;
+	
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
@@ -44,8 +45,7 @@ public class LoginPage {
 
 	/**
 	 * This POM method will be exposed in testCases case to loginButton in the
-	 * application
-	 * 
+	 * application 
 	 * @param strUserName
 	 * @param strPasword
 	 * @return
